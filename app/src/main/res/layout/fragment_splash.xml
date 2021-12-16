@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashFragment">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heart"
+            android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/logo"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
